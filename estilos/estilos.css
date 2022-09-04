@@ -1,0 +1,63 @@
+/* las class son mas utilizadas que los id's y se pueden invocar con .nombreDelId*/
+/*#753422 darck
+  #B05B3B primary
+  #D79771 secondary
+  #FFEBC9 light
+  */
+
+.bg-darck {
+    background-color: #753422;
+}
+
+.bg-primary {
+    background-color: #B05B3B;
+}
+
+.bg-info {
+    background-color: #FFEBC9;
+}
+
+.text-ligth {
+    color: #FFEBC9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ancho-200 {
+    width: 200px;
+}
+
+.text-size-h1 {
+    font-size: 50px;
+}
+
+.text-size-h2 {
+    font-size: 25px;
+}
+
+
+
+
+
+
+.bg-cafe {
+    background-color: #C98474;
+}
+
+.cursiva {
+    font-style: oblique;
+}
+
+/*los id's se inbocan con # pero son muy utlizados*/
+#h2datosPersonales {
+    background-color: #C98474;
+}
+
+
+h2 {
+    font-size: 25px;
+    color: #002B5B;
+    background-color: #77ddf2;
+}

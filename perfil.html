@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <header class="bg-darck">
+        <hr>
+        <h1 class="text-ligth text-center text-size-h1">Perfil</h1>
+        <hr>
+        <p class="text-ligth text-center text-size-h2">Hoja de vida</p>
+        <hr>
+    </header>
+
+    <nav class="text-center">
+        <button class="text-ligth bg-primary ancho-200">GitHub</button>
+        <button class="text-ligth bg-primary ancho-200">Contacto</button>
+        <button class="text-ligth bg-primary ancho-200">Blog</button>
+
+    </nav>
+
+    <main>
+        <!-- imagen con enlace externo-->
+        <a href="https://github.com/JDGamingPS?tab=repositories">
+            <img src="foto.jpg" alt="foto de jorge">
+        </a>
+
+        <table>
+            <tr>
+                <td>
+                    <!--esto es un columna-->
+                    <div class="bg-info">
+                        <hr>
+                        <h2 id="h2datosPersonales">1. Datos personales</h2>
+                        <hr>
+                        <p>NOMBRE: Jorge Pacosillo</p>
+                        <p>CI.: 7082023</p>
+                        <P>FECHA DE NACIMIENTO: 01/10/1995</P>
+                        <P>DIRECCION: Zona Villa tunari nro 8230</P>
+                        <p>CELULAR: 73078276</p>
+                        <P>CORREO ELECTRONICO: jorgedanielpacosillo@gmail.com</P>
+                        <hr>
+
+
+                    </div>
+                </td>
+
+                <td>
+                    <div class="bg-info">
+                        <hr>
+                        <h2>2. Informacion academica</h2>
+                        <hr>
+                        <p>diploma de bachiller</p>
+                        <p>egresado de la carrera de informatica UMSA</p>
+                        <hr>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <hr>
+                        <h2 class="bg-cafe">3. Conocimentos de informatica</h2>
+                        <hr>
+                        <!-- es una lista-->
+                        <ul>
+                            <li>Kotlin</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java</li>
+                            <li>GitHub</li>
+                        </ul>
+                        <hr>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <p>GitHub: <a href="">
+                <button>Jorge Daniel</button>
+            </a> </p>
+
+
+        <h2>4. Certificados</h2>
+
+        <!-- tablas -->
+        <table border="1">
+            <!--filas -->
+            <!-- columnas con encabezados -->
+            <caption>Certificados o cursos</caption> <!-- <- es el encabezado de las tablas-->
+            <!-- Encabezados de la tabla-->
+            <thead>
+                <tr>
+                    <th>Certificados</th>
+                    <th>Fecha</th>
+                    <th>Ref</th>
+                </tr>
+            </thead>
+
+            <!-- es para poner los encabezados abajo-->
+            <tfoot>
+                <tr>
+                    <th>Certificados</th>
+                    <th>Fecha</th>
+                    <th>Ref</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td class="italic"> programacion de android desde 0 </td>
+                    <td class="cursiva"> 01/10/2022 </td>
+                    <td class="cursiva"> www.udemy.com </td>
+                </tr>
+
+                <tr>
+                    <td class="cursiva"> github </td>
+                    <td class="cursiva"> 2-09-2022 </td>
+                    <td class="cursiva"> Alex </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <h2 class="bg-cafe">Formularios</h2>
+
+        <!--
+        input id sirve para relacionar con label for
+    -->
+        <form action="enviando.html" method="GET">
+            <label for="nombre">Nombre: </label>
+            <input name="resibeNombre" id="nombre" type="text" placeholder="ingrese su nombre">
+
+
+            <br>
+
+            <label for="apellido">Apellido: </label>
+            <input name="resibeApellido" id="apellido" type="text" placeholder="ingrese su nombre">
+
+            <br>
+
+            <button type="submit"> Agregar</button> <!-- el boton procesara el formulario-->
+        </form>
+
+
+        <p>este es un parrafo</p>
+        <b>este es un texto en negritas</b>
+        <i>Cursivas</i>
+        <p>
+            este es otro parrafo
+        </p>
+        <b>este es un <i>texto</i> em negritas</b>
+
+        <p>
+            <s>Texto tachado</s>
+        </p>
+
+        <strong>Texto importante</strong>
+
+    </main>
+
+
+
+</body>
+
+</html>
