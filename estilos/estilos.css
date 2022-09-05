@@ -5,6 +5,36 @@
   #FFEBC9 light
   */
 
+.contenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.titulo {
+    display: block;
+    font-size: 3rem;
+    color: #FFEBC9;
+    text-align: center;
+}
+
+.card {
+    font-size: 16px;
+    width: 30rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 1em;
+}
+
 .bg-darck {
     background-color: #753422;
 }
@@ -17,13 +47,57 @@
     background-color: #FFEBC9;
 }
 
-.text-ligth {
-    color: #FFEBC9;
+
+
+
+.border-dashed {
+    border-style: dashed;
 }
 
-.text-center {
-    text-align: center;
+.display-delinea {
+    display: inline;
 }
+
+.display-debloque {
+    display: block;
+}
+
+.paddings {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.padding-x {
+    padding: 0 10px;
+}
+
+.margen-datosP {
+    margin-left: 15px;
+    margin-right: 7.5px;
+}
+
+.margen-datosIA {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.margen-conInf {
+    margin-left: 7.5px;
+}
+
+.caja1 {
+    width: 425px;
+    height: 305px;
+}
+
+.caja2 {
+    height: 305px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
 
 .ancho-200 {
     width: 200px;
@@ -36,6 +110,7 @@
 .text-size-h2 {
     font-size: 25px;
 }
+
 
 
 
@@ -60,4 +135,9 @@ h2 {
     font-size: 25px;
     color: #002B5B;
     background-color: #77ddf2;
+}
+
+.text-center {
+    text-align: center;
+    color: #FFEBC9;
 }
